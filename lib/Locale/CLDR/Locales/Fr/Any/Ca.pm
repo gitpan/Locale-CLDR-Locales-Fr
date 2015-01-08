@@ -6,12 +6,12 @@ Locale::CLDR::Locales::Fr::Any::Ca - Package for language French
 
 package Locale::CLDR::Locales::Fr::Any::Ca;
 # This file auto generated from Data\common\main\fr_CA.xml
-#	on Tue 30 Dec 10:04:37 pm GMT
+#	on Tue  6 Jan 10:37:21 am GMT
 # XML file generated 2014-08-14 22:53:08 -0500 (Thu, 14 Aug 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.7');
+our $VERSION = version->declare('v0.26.8');
 
 use v5.10;
 use mro 'c3';
@@ -175,7 +175,7 @@ has 'units' => (
 	default		=> sub { {
 				'long' => {
 					'acre' => {
-						'' => q(acres),
+						'name' => q(acres),
 						'one' => q({0} acre),
 						'other' => q({0} acres),
 					},
@@ -184,71 +184,71 @@ has 'units' => (
 						'other' => q({0} minutes d’angle),
 					},
 					'cubic-mile' => {
-						'' => q(milles cubes),
+						'name' => q(milles cubes),
 						'one' => q({0} mille cube),
 						'other' => q({0} milles cubes),
 					},
 					'cubic-yard' => {
-						'' => q(verges cubes),
+						'name' => q(verges cubes),
 						'one' => q({0} verge cube),
 						'other' => q({0} verges cubes),
 					},
 					'foodcalorie' => {
-						'' => q(kilocalories),
+						'name' => q(kilocalories),
 						'one' => q({0} kilocalorie),
 						'other' => q({0} kilocalories),
 					},
 					'g-force' => {
-						'' => q(force G),
+						'name' => q(force G),
 					},
 					'kilometer-per-hour' => {
-						'' => q(kilomètres à l’heure),
+						'name' => q(kilomètres à l’heure),
 					},
 					'mile' => {
-						'' => q(mille),
+						'name' => q(mille),
 						'one' => q({0} mille),
 						'other' => q({0} milles),
 					},
 					'mile-per-gallon' => {
-						'' => q(milles au gallon),
+						'name' => q(milles au gallon),
 						'one' => q({0} mille au gallon),
 						'other' => q({0} milles au gallon),
 					},
 					'mile-per-hour' => {
-						'' => q(milles par heure),
+						'name' => q(milles par heure),
 						'one' => q({0} mille par heure),
 						'other' => q({0} milles par heure),
 					},
 					'pint' => {
-						'' => q(chopine),
+						'name' => q(chopine),
 						'one' => q({0} chopine),
 						'other' => q({0} chopines),
 					},
 					'quart' => {
-						'' => q(pintes),
+						'name' => q(pintes),
 						'one' => q({0} pinte),
 						'other' => q({0} pintes),
 					},
 					'second' => {
-						'' => q({0} à la seconde),
+						'per' => q({0} à la seconde),
 					},
 					'square-mile' => {
-						'' => q(milles carrés),
+						'name' => q(milles carrés),
 						'one' => q({0} mille carré),
 						'other' => q({0} milles carrés),
 					},
 					'square-yard' => {
-						'' => q(verges carrées),
+						'name' => q(verges carrées),
 						'one' => q({0} verge carrée),
 						'other' => q({0} verges carrées),
 					},
 					'teaspoon' => {
-						'' => q(cuillères à thé),
+						'name' => q(cuillères à thé),
 						'one' => q({0} cuillère à thé),
 						'other' => q({0} cuillères à thé),
 					},
 					'yard' => {
-						'' => q(verges),
+						'name' => q(verges),
 						'one' => q({0} verge),
 						'other' => q({0} verges),
 					},
@@ -259,12 +259,12 @@ has 'units' => (
 						'other' => q({0} °C),
 					},
 					'month' => {
-						'' => q(m.),
+						'name' => q(m.),
 					},
 				},
 				'short' => {
 					'acre-foot' => {
-						'' => q(ac-pi),
+						'name' => q(ac-pi),
 						'one' => q({0} ac-pi),
 						'other' => q({0} ac-pi),
 					},
@@ -273,7 +273,7 @@ has 'units' => (
 						'other' => q({0} ua),
 					},
 					'centiliter' => {
-						'' => q(cL),
+						'name' => q(cL),
 						'one' => q({0} cL),
 						'other' => q({0} cL),
 					},
@@ -282,22 +282,22 @@ has 'units' => (
 						'other' => q({0} pi³),
 					},
 					'cubic-yard' => {
-						'' => q(vg³),
+						'name' => q(vg³),
 						'one' => q({0} vg³),
 						'other' => q({0} vg³),
 					},
 					'deciliter' => {
-						'' => q(dL),
+						'name' => q(dL),
 						'one' => q({0} dL),
 						'other' => q({0} dL),
 					},
 					'fluid-ounce' => {
-						'' => q(oz liq.),
+						'name' => q(oz liq.),
 						'one' => q({0} oz liq.),
 						'other' => q({0} oz liq.),
 					},
 					'foodcalorie' => {
-						'' => q(kcal),
+						'name' => q(kcal),
 						'one' => q({0} kcal),
 						'other' => q({0} kcal),
 					},
@@ -306,58 +306,58 @@ has 'units' => (
 						'other' => q({0} pi),
 					},
 					'hectoliter' => {
-						'' => q(hL),
+						'name' => q(hL),
 						'one' => q({0} hL),
 						'other' => q({0} hL),
 					},
 					'inch-hg' => {
-						'' => q(po Hg),
+						'name' => q(po Hg),
 						'one' => q({0} po Hg),
 						'other' => q({0} po Hg),
 					},
 					'karat' => {
-						'' => q(carats),
+						'name' => q(carats),
 					},
 					'light-year' => {
-						'' => q(al),
+						'name' => q(al),
 						'one' => q({0} al),
 						'other' => q({0} al),
 					},
 					'megaliter' => {
-						'' => q(ML),
+						'name' => q(ML),
 						'one' => q({0} ML),
 						'other' => q({0} ML),
 					},
 					'meter-per-second' => {
-						'' => q(mètres par seconde),
+						'name' => q(mètres par seconde),
 					},
 					'milliliter' => {
-						'' => q(mL),
+						'name' => q(mL),
 						'one' => q({0} mL),
 						'other' => q({0} mL),
 					},
 					'month' => {
-						'' => q(m.),
+						'name' => q(m.),
 						'one' => q({0} m.),
 						'other' => q({0} m.),
 					},
 					'nautical-mile' => {
-						'' => q(NM),
+						'name' => q(NM),
 						'one' => q({0} NM),
 						'other' => q({0} NM),
 					},
 					'pint' => {
-						'' => q(chop),
+						'name' => q(chop),
 						'one' => q({0} chop),
 						'other' => q({0} chop),
 					},
 					'pound-per-square-inch' => {
-						'' => q(psi),
+						'name' => q(psi),
 						'one' => q({0} psi),
 						'other' => q({0} psi),
 					},
 					'quart' => {
-						'' => q(pte),
+						'name' => q(pte),
 						'one' => q({0} pte),
 						'other' => q({0} pte),
 					},
@@ -366,22 +366,22 @@ has 'units' => (
 						'other' => q({0} pi²),
 					},
 					'square-yard' => {
-						'' => q(vg²),
+						'name' => q(vg²),
 						'one' => q({0} vg²),
 						'other' => q({0} vg²),
 					},
 					'teaspoon' => {
-						'' => q(c. à t.),
+						'name' => q(c. à t.),
 						'one' => q({0} c. à t.),
 						'other' => q({0} c. à t.),
 					},
 					'ton' => {
-						'' => q(tc),
+						'name' => q(tc),
 						'one' => q({0} tc),
 						'other' => q({0} tc),
 					},
 					'yard' => {
-						'' => q(vg),
+						'name' => q(vg),
 						'one' => q({0} vg),
 						'other' => q({0} vg),
 					},
@@ -725,33 +725,33 @@ has 'day_period_data' => (
 		SWITCH:
 		for ($type) {
 			if ($_ eq 'generic') {
+				return 'night' if $time >= 1900
+					&& $time < 2400;
+				return 'afternoon' if $time > 1200
+					&& $time < 1900;
 				return 'noon' if $time == 1200;
 				return 'morning' if $time >= 0000
 					&& $time < 1200;
-				return 'afternoon' if $time > 1200
-					&& $time < 1900;
-				return 'night' if $time >= 1900
-					&& $time < 2400;
 			last SWITCH;
 			}
 			if ($_ eq 'gregorian') {
+				return 'night' if $time >= 1900
+					&& $time < 2400;
+				return 'afternoon' if $time > 1200
+					&& $time < 1900;
 				return 'noon' if $time == 1200;
 				return 'morning' if $time >= 0000
 					&& $time < 1200;
-				return 'afternoon' if $time > 1200
-					&& $time < 1900;
-				return 'night' if $time >= 1900
-					&& $time < 2400;
 			last SWITCH;
 			}
 			if ($_ eq 'islamic') {
+				return 'night' if $time >= 1900
+					&& $time < 2400;
+				return 'afternoon' if $time > 1200
+					&& $time < 1900;
 				return 'noon' if $time == 1200;
 				return 'morning' if $time >= 0000
 					&& $time < 1200;
-				return 'afternoon' if $time > 1200
-					&& $time < 1900;
-				return 'night' if $time >= 1900
-					&& $time < 2400;
 			last SWITCH;
 			}
 		}
@@ -842,6 +842,16 @@ has 'datetime_formats_available_formats' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
+		'generic' => {
+			MEd => q{E M-d},
+			MMd => q{MM-d},
+			MMdd => q{MM-dd},
+			Md => q{M-d},
+			yyyyM => q{G y-MM},
+			yyyyMEd => q{E G y-MM-dd},
+			yyyyMM => q{G y-MM},
+			yyyyMd => q{G y-MM-dd},
+		},
 		'gregorian' => {
 			MEd => q{E M-d},
 			MMd => q{MM-d},
@@ -859,16 +869,6 @@ has 'datetime_formats_available_formats' => (
 			yyyyMEd => q{E y-MM-dd GGGGG},
 			yyyyMd => q{y-MM-dd GGGGG},
 		},
-		'generic' => {
-			MEd => q{E M-d},
-			MMd => q{MM-d},
-			MMdd => q{MM-dd},
-			Md => q{M-d},
-			yyyyM => q{G y-MM},
-			yyyyMEd => q{E G y-MM-dd},
-			yyyyMM => q{G y-MM},
-			yyyyMd => q{G y-MM-dd},
-		},
 	} },
 );
 
@@ -885,75 +885,6 @@ has 'datetime_formats_interval' => (
 	isa			=> 'HashRef',
 	init_arg	=> undef,
 	default		=> sub { {
-		'gregorian' => {
-			H => {
-				H => q{HH–HH},
-			},
-			Hm => {
-				H => q{HH:mm–HH:mm},
-				m => q{HH:mm–HH:mm},
-			},
-			Hmv => {
-				H => q{HH:mm–HH:mm v},
-				m => q{HH:mm–HH:mm v},
-			},
-			Hv => {
-				H => q{HH–HH v},
-			},
-			MEd => {
-				M => q{E MM-dd – E MM-dd},
-				d => q{E MM-dd – E MM-dd},
-			},
-			Md => {
-				M => q{MM-dd – MM-dd},
-				d => q{MM-dd – MM-dd},
-			},
-			d => {
-				d => q{d–d},
-			},
-			h => {
-				a => q{h 'h' a – h 'h' a},
-				h => q{h–h a},
-			},
-			hm => {
-				h => q{h:mm–h:mm a},
-				m => q{h:mm–h:mm a},
-			},
-			hmv => {
-				h => q{h:mm–h:mm a v},
-				m => q{h:mm–h:mm a v},
-			},
-			hv => {
-				a => q{h 'h' a – h 'h' a v},
-				h => q{h–h a v},
-			},
-			yM => {
-				M => q{y-MM – y-MM},
-				y => q{y-MM – y-MM},
-			},
-			yMEd => {
-				M => q{'du' E y-MM-dd 'au' E y-MM-dd},
-				d => q{'du' E y-MM-dd 'au' E y-MM-dd},
-				y => q{'du' E y-MM-dd 'au' E y-MM-dd},
-			},
-			yMMM => {
-				y => q{'de' MMM y 'à' MMM y},
-			},
-			yMMMEd => {
-				M => q{'du' E d MMM 'au' E d MMM y},
-				d => q{'du' E d 'au' E d MMM y},
-				y => q{'du' E d MMM y 'au' E d MMM y},
-			},
-			yMMMd => {
-				M => q{'du' d MMM 'au' d MMM y},
-				y => q{'du' d MMM y 'au' d MMM y},
-			},
-			yMd => {
-				M => q{y-MM-dd – y-MM-dd},
-				d => q{y-MM-dd – y-MM-dd},
-				y => q{y-MM-dd – y-MM-dd},
-			},
-		},
 		'generic' => {
 			H => {
 				H => q{HH–HH},
@@ -1028,6 +959,75 @@ has 'datetime_formats_interval' => (
 				M => q{G y-MM-dd – y-MM-dd},
 				d => q{G y-MM-dd – y-MM-dd},
 				y => q{G y-MM-dd – y-MM-dd},
+			},
+		},
+		'gregorian' => {
+			H => {
+				H => q{HH–HH},
+			},
+			Hm => {
+				H => q{HH:mm–HH:mm},
+				m => q{HH:mm–HH:mm},
+			},
+			Hmv => {
+				H => q{HH:mm–HH:mm v},
+				m => q{HH:mm–HH:mm v},
+			},
+			Hv => {
+				H => q{HH–HH v},
+			},
+			MEd => {
+				M => q{E MM-dd – E MM-dd},
+				d => q{E MM-dd – E MM-dd},
+			},
+			Md => {
+				M => q{MM-dd – MM-dd},
+				d => q{MM-dd – MM-dd},
+			},
+			d => {
+				d => q{d–d},
+			},
+			h => {
+				a => q{h 'h' a – h 'h' a},
+				h => q{h–h a},
+			},
+			hm => {
+				h => q{h:mm–h:mm a},
+				m => q{h:mm–h:mm a},
+			},
+			hmv => {
+				h => q{h:mm–h:mm a v},
+				m => q{h:mm–h:mm a v},
+			},
+			hv => {
+				a => q{h 'h' a – h 'h' a v},
+				h => q{h–h a v},
+			},
+			yM => {
+				M => q{y-MM – y-MM},
+				y => q{y-MM – y-MM},
+			},
+			yMEd => {
+				M => q{'du' E y-MM-dd 'au' E y-MM-dd},
+				d => q{'du' E y-MM-dd 'au' E y-MM-dd},
+				y => q{'du' E y-MM-dd 'au' E y-MM-dd},
+			},
+			yMMM => {
+				y => q{'de' MMM y 'à' MMM y},
+			},
+			yMMMEd => {
+				M => q{'du' E d MMM 'au' E d MMM y},
+				d => q{'du' E d 'au' E d MMM y},
+				y => q{'du' E d MMM y 'au' E d MMM y},
+			},
+			yMMMd => {
+				M => q{'du' d MMM 'au' d MMM y},
+				y => q{'du' d MMM y 'au' d MMM y},
+			},
+			yMd => {
+				M => q{y-MM-dd – y-MM-dd},
+				d => q{y-MM-dd – y-MM-dd},
+				y => q{y-MM-dd – y-MM-dd},
 			},
 		},
 	} },

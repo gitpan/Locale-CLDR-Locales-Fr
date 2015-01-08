@@ -6,12 +6,12 @@ Locale::CLDR::Locales::Fr::Any::Sn - Package for language French
 
 package Locale::CLDR::Locales::Fr::Any::Sn;
 # This file auto generated from Data\common\main\fr_SN.xml
-#	on Tue 30 Dec 10:04:54 pm GMT
+#	on Tue  6 Jan 10:37:49 am GMT
 # XML file generated 2014-07-23 16:10:33 -0500 (Wed, 23 Jul 2014)
 
 use version;
 
-our $VERSION = version->declare('v0.26.7');
+our $VERSION = version->declare('v0.26.8');
 
 use v5.10;
 use mro 'c3';
